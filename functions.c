@@ -1,6 +1,6 @@
 #include "main.h"
 
-/************************* PRINT CHAR *************************/
+/************************* PRINT A CHARACTER *************************/
 
 /**
  * print_char - Prints a char
@@ -12,6 +12,7 @@
  * @size: Size specifier
  * Return: Number of chars printed
  */
+
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
